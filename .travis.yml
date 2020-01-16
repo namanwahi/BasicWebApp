@@ -2,3 +2,7 @@ language: java
 jdk:
 - openjdk8
 script: mvn clean verify
+deploy:
+  provider: heroku
+  api_key:
+    secure: llfSBGuTW2T2UjXiQQMeyywO1CPmC2B/EzamV0dp5JT+sJEnVfzpaGO+U+Fh9xfJvvOGQBq3qhUqWgA/cxojxebRMTWBNY7id49vvV+KhnN8BM8VaQ0fH/FR56Dw1tRzi5cF6eEjGZrpE/bRhyZxGV6sHE59kKkbxTuwqYxGYRXofYbMrRGWOQMP/y4JDcSuJU77J4x06sXWh75XcU1qsR1/v+fCbOtfT4mcI0gN2+LyjGD5wBcboJl4WsrhSRGnUl9BMqpk0Al26DjDesyPKtYFSE/sv+8VrU5eXMrc4RM39g+/0hYWuGiPw6ELhPL7URQNSCtFbo/CyULFcD/H+ujTFPjsfxydzcM/CSru8w88nMpZGCJIu1k04ZCOF1f4DjYMXQy5NdP5HHp9gknPMTG06lIY4kMiQsDADGfyRjZPB2e4vceRPdhqU0gS/5tcPwMy9UUuOLUU+kUWLntNkq++oOf6yg5Dzit5kNwivfNaqXoqaxZLJaVIFtCp2OnoakAbUBo3ZmHCgOrCiYf6mBUGErm77zBo1PSr8zeD7GLq8dJl5KAbgFm9QGJFezr+hbkae+MfR9DqEMuxZZJk1BpD/SuRAaPSue+cY/PDB+sIZ66B77BnPlpbErJWJ2qsUuMpUmhkPDV9L07WEdT+Dn+ov9hdroiYu7EPQKHfniQ=
